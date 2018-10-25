@@ -1,17 +1,8 @@
 #!/bin/bash
 
-#################################################################################
-################### TOOL - WiFi Deauth detecter - under GPLv3 ###################
-################### by Phil, Puzzle guy                       ###################
-################### From the 3rd bench                        ###################
-################### Thanks to the community!                  ###################
-#################################################################################
-
-##########################################################
-#  INFORMATIONS                                          #
-#   This Script detects Deauth pacets                    #
-#                                                        #
-##########################################################
+# TOOL - WiFi Deauth detecter
+# author Philipp Matti <philippmatti@gmail.com>
+# this script detects deauth packages
 
 mon_interface="wlp0s20u2"
 filter="wlan.fc.type_subtype == 0xc"
